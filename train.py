@@ -1,6 +1,6 @@
 from ultralytics import YOLOv10
 if __name__ == '__main__':
-    model = YOLOv10("/kaggle/working/MHAF-YOLO/MAF-YOLOv2-M.pt")
+    model = YOLOv10("MAF-YOLOv2-M.yaml")
     model.train(
         data="cell.yaml",
         epochs=200,
