@@ -3,9 +3,9 @@ if __name__ == '__main__':
     model = YOLOv10("/kaggle/working/MHAF-YOLO/MAF-YOLOv2-M.pt")
     model.train(
         data="cell.yaml",
-        epochs=300,
-        patience=10,
-        batch=8,
+        epochs=200,
+        patience=4,
+        batch=10,
         imgsz=640,
         save=True,
         save_period=-1,
