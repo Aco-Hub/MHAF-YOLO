@@ -1,4 +1,4 @@
-train: kaggle/working/yolo_dataset/images/train
-val: kaggle/working/yolo_dataset/images/val
+train: /kaggle/input/notebook36ec47c077/yolo_dataset/images/train
+val: /kaggle/input/notebook36ec47c077/yolo_dataset/images/val
 nc: 1
 names: [‘motor']
